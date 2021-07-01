@@ -1,0 +1,12 @@
+name: BilicraftWhiteList
+version: ${project.version}
+main: com.bilicraft.bilicraftwhitelist.BilicraftWhiteList
+api-version: 1.16
+description: Bilicraft 邀请制白名单邀请工具
+commands:
+  invite:
+    description: 邀请新玩家并将其加入白名单
+    usage: /invite <玩家ID>
+  whoinvite:
+    description: 查询一个玩家是谁邀请的
+    usage: /whoinvite <玩家ID>
